@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <title>Event | Template</title>
+        <meta name="description" content />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="manifest" href="site.html" />
+        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico" />
+
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+        <link rel="stylesheet" href="assets/css/slicknav.css" />
+        <link rel="stylesheet" href="assets/css/animate.min.css" />
+        <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+        <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+        <link rel="stylesheet" href="assets/css/themify-icons.css" />
+        <link rel="stylesheet" href="assets/css/slick.css" />
+        <link rel="stylesheet" href="assets/css/nice-select.css" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <script nonce="e65cb97a-f419-4808-abb5-ce581439d145">
+            try {
+                (function (w, d) {
+                    !(function (b, c, d, e) {
+                        b[d] = b[d] || {};
+                        b[d].executed = [];
+                        b.zaraz = { deferred: [], listeners: [] };
+                        b.zaraz.q = [];
+                        b.zaraz._f = function (f) {
+                            return async function () {
+                                var g = Array.prototype.slice.call(arguments);
+                                b.zaraz.q.push({ m: f, a: g });
+                            };
+                        };
+                        for (const h of ["track", "set", "debug"]) b.zaraz[h] = b.zaraz._f(h);
+                        b.zaraz.init = () => {
+                            var i = c.getElementsByTagName(e)[0],
+                                j = c.createElement(e),
+                                k = c.getElementsByTagName("title")[0];
+                            k && (b[d].t = c.getElementsByTagName("title")[0].text);
+                            b[d].x = Math.random();
+                            b[d].w = b.screen.width;
+                            b[d].h = b.screen.height;
+                            b[d].j = b.innerHeight;
+                            b[d].e = b.innerWidth;
+                            b[d].l = b.location.href;
+                            b[d].r = c.referrer;
+                            b[d].k = b.screen.colorDepth;
+                            b[d].n = c.characterSet;
+                            b[d].o = new Date().getTimezoneOffset();
+                            if (b.dataLayer) for (const o of Object.entries(Object.entries(dataLayer).reduce((p, q) => ({ ...p[1], ...q[1] }), {}))) zaraz.set(o[0], o[1], { scope: "page" });
+                            b[d].q = [];
+                            for (; b.zaraz.q.length; ) {
+                                const r = b.zaraz.q.shift();
+                                b[d].q.push(r);
+                            }
+                            j.defer = !0;
+                            for (const s of [localStorage, sessionStorage])
+                                Object.keys(s || {})
+                                    .filter((u) => u.startsWith("_zaraz_"))
+                                    .forEach((t) => {
+                                        try {
+                                            b[d]["z_" + t.slice(7)] = JSON.parse(s.getItem(t));
+                                        } catch {
+                                            b[d]["z_" + t.slice(7)] = s.getItem(t);
+                                        }
+                                    });
+                            j.referrerPolicy = "origin";
+                            j.src = "../../cdn-cgi/zaraz/sd0d9.js?z=" + btoa(encodeURIComponent(JSON.stringify(b[d])));
+                            i.parentNode.insertBefore(j, i);
+                        };
+                        ["complete", "interactive"].includes(c.readyState) ? zaraz.init() : b.addEventListener("DOMContentLoaded", zaraz.init);
+                    })(w, d, "zarazData", "script");
+                })(window, document);
+            } catch (e) {
+                throw (fetch("/cdn-cgi/zaraz/t"), e);
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="header-area header-transparent">
+                <div class="main-header">
+                    <div class="container-fluid">
+                        <div class="row align-items-center">
+                            <div class="col-xl-2 col-lg-2">
+                                <div class="logo">
+                                    <a href="index-2.html"><img src="assets/img/logo/logo.png" alt /></a>
+                                </div>
+                            </div>
+                            <div class="col-xl-10 col-lg-10">
+                                <div class="menu-wrapper d-flex align-items-center justify-content-end">
+                                    <div class="main-menu d-none d-lg-block">
+                                        <nav>
+                                            <ul id="navigation">
+                                                <li><a href="index-2.html">Home</a></li>
+                                                <li><a href="about.html">About</a></li>
+                                                <li><a href="programs.html">Programs</a></li>
+                                                <li><a href="speakers.html">Speakersc</a></li>
+                                                <li>
+                                                    <a href="#">Blog</a>
+                                                    <ul class="submenu">
+                                                        <li><a href="blog.html">Blog</a></li>
+                                                        <li><a href="blog_details.html">Blog Details</a></li>
+                                                        <li><a href="elements.html">Element</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="contact.html">Contact</a></li>
+
+                                                <li class="button-header">
+                                                    <a href="login.html" target="_blank" class="header-btn">Buy Ticket</a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="mobile_menu d-block d-lg-none"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="slider-area position-relative">
+                <div class="slider-active">
+                    <div class="single-slider slider-height slider-bg1 d-flex align-items-center">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-xl-11 col-lg-11">
+                                    <div class="hero-caption">
+                                        <span data-animation="fadeInUp" data-delay=".4s">12 Jan- 20 Jan 2020</span>
+                                        <h1 data-animation="fadeInUp" data-delay=".6s">Business Conference</h1>
+                                        <p data-animation="fadeInUp" data-delay=".8s">UX England is a 4-day conference about everything User Experience.</p>
+
+                                        <div class="slider-btns">
+                                            <a data-animation="fadeInLeft" data-delay="1.0s" href="#" class="btn hero-btn">Join Now</a>
+
+                                            <a data-animation="fadeInRight" data-delay="1.0s" class="popup-video video-btn" href="https://www.youtube.com/watch?v=1aP-TXUpNoU">
+                                                <i class="far fa-play-circle"></i>
+                                                Watch Video
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-slider slider-height slider-bg1 d-flex align-items-center">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-xl-11 col-lg-11">
+                                    <div class="hero-caption">
+                                        <span data-animation="fadeInUp" data-delay=".4s">12 Jan- 20 Jan 2020</span>
+                                        <h1 data-animation="fadeInUp" data-delay=".6s">Business Conference</h1>
+                                        <p data-animation="fadeInUp" data-delay=".8s">UX England is a 4-day conference about everything User Experience.</p>
+
+                                        <div class="slider-btns">
+                                            <a data-animation="fadeInLeft" data-delay="1.0s" href="#" class="btn hero-btn">Join Now</a>
+
+                                            <a data-animation="fadeInRight" data-delay="1.0s" class="popup-video video-btn" href="https://www.youtube.com/watch?v=1aP-TXUpNoU">
+                                                <i class="far fa-play-circle"></i>
+                                                Watch Video
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-name01">
+                    <h2>Innovative</h2>
+                </div>
+            </div>
+
+            <section class="support-company-area section-padding">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 col-md-10 col-sm-11">
+                            <div class="section-tittle text-center mb-50">
+                                <h2>About the Conference</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-xl-7 col-lg-7 col-md-10">
+                            <div class="support-location-img">
+                                <img src="assets/img/gallery/about.jpg" alt />
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-5 col-md-10">
+                            <div class="right-caption">
+                                <div class="small-tittle mb-30">
+                                    <h2>Fully innovative conference</h2>
+                                    <p>
+                                        The automated process starts as soon as your clothes go into the machine. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et
+                                        justo cursus id rutrum lorem imperdiet.
+                                    </p>
+                                </div>
+                                <div class="support-caption">
+                                    <div class="single-info">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <div class="contents">
+                                            <span>Location</span>
+                                            <p>
+                                                78 Street, London <br />
+                                                England
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="single-info">
+                                        <i class="fas fa-clock"></i>
+                                        <div class="contents">
+                                            <span>Location</span>
+                                            <p>
+                                                78 Street, London <br />
+                                                England
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="project-us pb-padding bottom-padding2">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-5 col-lg-5 col-md-10">
+                            <div class="project-caption">
+                                <div class="section-tittle mb-20">
+                                    <h2>The New Era of Tech Companies</h2>
+                                </div>
+                                <p class="project-cap-top">The automated process starts as soon as your clothes go into the machine. Duis cursus, mi quis viverra ornare, eros dolor interdum.</p>
+                                <p class="mb-30">
+                                    The automated process starts as soon as your clothes go into the machine. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo
+                                    cursus id rutrum lorem imperdiet.
+                                </p>
+                                <a href="#" class="btn">Join Now</a>
+                            </div>
+                        </div>
+                        <div class="offset-xl-1 col-xl-6 col-lg-7 col-md-10 col-sm-10">
+                            <div class="project-right-cap">
+                                <div class="project-right-img">
+                                    <img src="assets/img/gallery/about2.jpg" alt />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="subscribe-area" data-background="assets/img/gallery/section-bg1.jpg">
+                <div class="container">
+                    <div class="row justify-content-end subscribe-padding">
+                        <div class="col-xl-6 col-lg-8 col-md-9">
+                            <div class="subscribe-caption">
+                                <h3>We have top executive & start up here</h3>
+                                <p>The automated process starts as soon as your clothes go into the machine. Duis cursus, mi quis viverra ornare, eros dolor interdum.</p>
+                                <form action="#">
+                                    <input type="text" placeholder="Enter your email" />
+                                    <button class="subscribe-btn">Subscribe</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="program-shedule section-padding">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="section-tittle text-center mb-50">
+                                <h2>Program Details</h2>
+                                <p>The automated process starts as soon as your clothes go into the machine. Duis cursus, miquis viverra ornare.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="properties__button mb-40">
+                                <nav>
+                                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">12 Jan</a>
+                                        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">13 Jan</a>
+                                        <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false"> 14 Jan</a>
+                                        <a class="nav-item nav-link" id="nav-dinner-tab" data-toggle="tab" href="#nav-dinner" role="tab" aria-controls="nav-dinner" aria-selected="false"> 15 Jan</a>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="single-Program mb-20">
+                                        <div class="job-items">
+                                            <div class="company-img">
+                                                <a href="#"><img src="assets/img/gallery/leader1.png" alt /></a>
+                                            </div>
+                                            <div class="job-tittle">
+                                                <a href="#"><h4>Fully innovative conference</h4></a>
+                                                <p>The automated process starts as soon as your clothes go into the machine. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+                                                <ul>
+                                                    <li><i class="fas fa-clock"></i>10.00 am - 12.20 pm</li>
+                                                    <li>By Jemes Kally</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="single-Program mb-20">
+                                        <div class="job-items">
+                                            <div class="company-img">
+                                                <a href="#"><img src="assets/img/gallery/leader2.png" alt /></a>
+                                            </div>
+                                            <div class="job-tittle">
+                                                <a href="#"><h4>Fully innovative conference</h4></a>
+                                                <p>The automated process starts as soon as your clothes go into the machine. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+                                                <ul>
+                                                    <li><i class="fas fa-clock"></i>10.00 am - 12.20 pm</li>
+                                                    <li>By Jemes Kally</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="single-Program mb-20">
+                                        <div class="job-items">
+                                            <div class="company-img">
+                                                <a href="#"><img src="assets/img/gallery/leader3.png" alt /></a>
+                                            </div>
+                                            <div class="job-tittle">
+                                                <a href="#"><h4>Fully innovative conference</h4></a>
+                                                <p>The automated process starts as soon as your clothes go into the machine. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+                                                <ul>
+                                                    <li><i class="fas fa-clock"></i>10.00 am - 12.20 pm</li>
+                                                    <li>By Jemes Kally</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="single-Program mb-20">
+                                        <div class="job-items">
+                                            <div class="company-img">
+                                                <a href="#"><img src="assets/img/gallery/leader1.png" alt /></a>
+                                            </div>
+                                            <div class="job-tittle">
+                                                <a href="#"><h4>Fully innovative conference</h4></a>
+                                                <p>The automated process starts as soon as your clothes go into the machine. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+                                                <ul>
+                                                    <li><i class="fas fa-clock"></i>10.00 am - 12.20 pm</li>
+                                                    <li>By Jemes Kally</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="single-Program mb-20">
+                                        <div class="job-items">
+                                            <div class="company-img">
+                                                <a href="#"><img src="assets/img/gallery/leader2.png" alt /></a>
+                                            </div>
+                                            <div class="job-tittle">
+                                                <a href="#"><h4>Fully innovative conference</h4></a>
+                                                <p>The automated process starts as soon as your clothes go into the machine. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+                                                <ul>
+                                                    <li><i class="fas fa-clock"></i>10.00 am - 12.20 pm</li>
+                                                    <li>By Jemes Kally</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="single-Program mb-20">
+                                        <div class="job-items">
+                                            <div class="company-img">
+                                                <a href="#"><img src="assets/img/gallery/leader3.png" alt /></a>
+                                            </div>
+                                            <div class="job-tittle">
+                                                <a href="#"><h4>Fully innovative conference</h4></a>
+                                                <p>The automated process starts as soon as your clothes go into the machine. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+                                                <ul>
+                                                    <li><i class="fas fa-clock"></i>10.00 am - 12.20 pm</li>
+                                                    <li>By Jemes Kally</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="single-Program mb-20">
+                                        <div class="job-items">
+                                            <div class="company-img">
+                                                <a href="#"><img src="assets/img/gallery/leader1.png" alt /></a>
+                                            </div>
+                                            <div class="job-tittle">
+                                                <a href="#"><h4>Fully innovative conference</h4></a>
+                                                <p>The automated process starts as soon as your clothes go into the machine. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+                                                <ul>
+                                                    <li><i class="fas fa-clock"></i>10.00 am - 12.20 pm</li>
+                                                    <li>By Jemes Kally</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="single-Program mb-20">
+                                        <div class="job-items">
+                                            <div class="company-img">
+                                                <a href="#"><img src="assets/img/gallery/leader2.png" alt /></a>
+                                            </div>
+                                            <div class="job-tittle">
+                                                <a href="#"><h4>Fully innovative conference</h4></a>
+                                                <p>The automated process starts as soon as your clothes go into the machine. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+                                                <ul>
+                                                    <li><i class="fas fa-clock"></i>10.00 am - 12.20 pm</li>
+                                                    <li>By Jemes Kally</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="single-Program mb-20">
+                                        <div class="job-items">
+                                            <div class="company-img">
+                                                <a href="#"><img src="assets/img/gallery/leader3.png" alt /></a>
+                                            </div>
+                                            <div class="job-tittle">
+                                                <a href="#"><h4>Fully innovative conference</h4></a>
+                                                <p>The automated process starts as soon as your clothes go into the machine. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+                                                <ul>
+                                                    <li><i class="fas fa-clock"></i>10.00 am - 12.20 pm</li>
+                                                    <li>By Jemes Kally</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="nav-dinner" role="tabpanel" aria-labelledby="nav-dinner">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="single-Program mb-20">
+                                        <div class="job-items">
+                                            <div class="company-img">
+                                                <a href="#"><img src="assets/img/gallery/leader1.png" alt /></a>
+                                            </div>
+                                            <div class="job-tittle">
+                                                <a href="#"><h4>Fully innovative conference</h4></a>
+                                                <p>The automated process starts as soon as your clothes go into the machine. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+                                                <ul>
+                                                    <li><i class="fas fa-clock"></i>10.00 am - 12.20 pm</li>
+                                                    <li>By Jemes Kally</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="single-Program mb-20">
+                                        <div class="job-items">
+                                            <div class="company-img">
+                                                <a href="#"><img src="assets/img/gallery/leader2.png" alt /></a>
+                                            </div>
+                                            <div class="job-tittle">
+                                                <a href="#"><h4>Fully innovative conference</h4></a>
+                                                <p>The automated process starts as soon as your clothes go into the machine. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+                                                <ul>
+                                                    <li><i class="fas fa-clock"></i>10.00 am - 12.20 pm</li>
+                                                    <li>By Jemes Kally</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="single-Program mb-20">
+                                        <div class="job-items">
+                                            <div class="company-img">
+                                                <a href="#"><img src="assets/img/gallery/leader3.png" alt /></a>
+                                            </div>
+                                            <div class="job-tittle">
+                                                <a href="#"><h4>Fully innovative conference</h4></a>
+                                                <p>The automated process starts as soon as your clothes go into the machine. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+                                                <ul>
+                                                    <li><i class="fas fa-clock"></i>10.00 am - 12.20 pm</li>
+                                                    <li>By Jemes Kally</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="team-area section-padding section-bg1">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="cl-xl-6 col-lg-7 col-md-8">
+                            <div class="section-tittle text-center mb-60">
+                                <h2>Our Speakers</h2>
+                                <p>The automated process starts as soon as your clothes go into the machine. Duis cursus, miquis viverra ornare.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-team mb-30 text-center">
+                                <div class="team-img">
+                                    <img src="assets/img/gallery/team1.jpg" alt />
+                                    <div class="team-caption">
+                                        <div class="team-social">
+                                            <ul>
+                                                <li>
+                                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-info">
+                                    <h3><a href="#">Jon Dalton</a></h3>
+                                    <p>Creative Director at Colorlib</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-team mb-30 text-center">
+                                <div class="team-img">
+                                    <img src="assets/img/gallery/team2.jpg" alt />
+                                    <div class="team-caption">
+                                        <div class="team-social">
+                                            <ul>
+                                                <li>
+                                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-info">
+                                    <h3><a href="#">Jon Dalton</a></h3>
+                                    <p>Creative Director at Colorlib</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-team mb-30 text-center">
+                                <div class="team-img">
+                                    <img src="assets/img/gallery/team3.jpg" alt />
+                                    <div class="team-caption">
+                                        <div class="team-social">
+                                            <ul>
+                                                <li>
+                                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-info">
+                                    <h3><a href="#">Jon Dalton</a></h3>
+                                    <p>Creative Director at Colorlib</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-team mb-30 text-center">
+                                <div class="team-img">
+                                    <img src="assets/img/gallery/team4.jpg" alt />
+                                    <div class="team-caption">
+                                        <div class="team-social">
+                                            <ul>
+                                                <li>
+                                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-info">
+                                    <h3><a href="#">Jon Dalton</a></h3>
+                                    <p>Creative Director at Colorlib</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact-animal-owner section-bg" data-background="assets/img/gallery/section-bg2.jpg">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-7 col-lg-9">
+                            <div class="contact_text text-center">
+                                <div class="section_title text-center">
+                                    <h3>Book your seat</h3>
+                                    <p>The automated process starts as soon as your clothes go into the machine. Duis cursus, mi quis viverra ornare, eros dolor interdum.</p>
+                                </div>
+                                <div class="contact_btn d-flex align-items-center justify-content-center">
+                                    <a href="login.html" class="btn buy-btn">Buy Ticket</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-wrapper black-bg footer-padding">
+                <div class="footer-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="menu-wrapper text-center">
+                                    <div class="footer-social mb-20">
+                                        <a href="https://bit.ly/sai4ull"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fab fa-instagram"></i></a>
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                        <a href="#"><i class="fab fa-youtube"></i></a>
+                                        <a href="#"><i class="fab fa-tumblr"></i></a>
+                                    </div>
+
+                                    <div class="main-menu main-menu2">
+                                        <nav>
+                                            <ul>
+                                                <li><a href="index-2.html">Home</a></li>
+                                                <li><a href="about.html">About</a></li>
+                                                <li><a href="programs.html">Programs</a></li>
+                                                <li><a href="speakers.html">Speakersc</a></li>
+                                                <li><a href="#">Location</a></li>
+                                                <li><a href="contact.html">Contact</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-bottom-area">
+                    <div class="container">
+                        <div class="footer-border">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="footer-copy-right text-center">
+                                        <p>
+                                            Copyright &copy;
+                                            <script>
+                                                document.write(new Date().getFullYear());
+                                            </script>
+                                            All rights reserved | This template is made with <i class="fa fa-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com/" target="_blank" rel="nofollow noopener">Colorlib</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div id="back-top">
+            <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+        </div>
+
+        <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/slick.min.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/jquery.magnific-popup.js"></script>
+        <script src="assets/js/jquery.slicknav.min.js"></script>
+
+        <script src="assets/js/jquery.counterup.min.js"></script>
+        <script src="assets/js/waypoints.min.js"></script>
+        <script src="assets/js/jquery.nice-select.min.js"></script>
+
+        <script src="assets/js/contact.js"></script>
+        <script src="assets/js/jquery.form.js"></script>
+        <script src="assets/js/jquery.validate.min.js"></script>
+        <script src="assets/js/mail-script.js"></script>
+        <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+
+        <script src="assets/js/plugins.js"></script>
+        <script src="assets/js/main.js"></script>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+
+            gtag("config", "UA-23581568-13");
+        </script>
+        <script
+            defer
+            src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317"
+            integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA=="
+            data-cf-beacon='{"rayId":"871a8cbabc056ed0","b":1,"version":"2024.3.0","token":"cd0b4b3a733644fc843ef0b185f98241"}'
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
